@@ -1,0 +1,54 @@
+#Testes Contato Seguro – COB
+
+#PLANO DE TESTES
+
+Este Plano de Teste compreende testes funcionais, de usabilidade e responsividade do site Contato Seguro - COB e abrange as seguintes funções:
+•	Faça uma denúncia
+•	Faça uma sugestão
+•	Tire uma dúvida
+•	Acessibilidade do site
+•	Navegação do site
+•	Função alterar idioma
+
+# Tabela Resumo dos Casos de Teste
+
+
+
+# Casos de Teste
+
+1.	DENÚNCIA
+DADO que o usuário deseja fazer uma denúncia
+QUANDO clicar em ‘Faça a sua Denúncia’
+E preencher os dados necessários
+ENTÃO DEVE poder enviar sua denúncia com sucesso
+
+2.	SUGESTÃO
+DADO que o usuário deseja fazer uma sugestão
+QUANDO clicar em ‘Faça a sua Sugestão’
+E preencher os dados necessários
+ENTÃO DEVE poder enviar sua sugestão com sucesso
+
+3.	DÚVIDA
+DADO que o usuário deseja tirar uma denúncia
+QUANDO clicar em ‘DÚVIDA’
+E preencher os dados necessários
+ENTÃO DEVE poder enviar sua dúvida com sucesso
+
+4.	ACESSIBILIDADE
+DADO que o usuário deseja usar uma função de acessibilidade
+QUANDO clicar em alguma das opções
+ENTÃO DEVE poder navegar com o auxílio necessário
+
+5.	NAVEGAÇÃO
+DADO que o usuário deseja navegar nos menus do site
+QUANDO clicar em algum dos botões disponíveis
+ENTÃO DEVE ser direcionado de acordo com o botão correspondente
+ 
+
+6.	IDIOMAS
+DADO que o usuário deseja utilizar o site em outro idioma
+QUANDO clicar na seleção de idiomas e selecionar um idioma
+ENTÃO o site deve ser traduzido para o idioma selecionado
+
+# Cadastro de BUGS
+

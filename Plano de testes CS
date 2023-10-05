@@ -1,6 +1,6 @@
-#Testes Contato Seguro – COB
+# Testes Contato Seguro – COB
 
-#PLANO DE TESTES
+# PLANO DE TESTES
 
 Este Plano de Teste compreende testes funcionais, de usabilidade e responsividade do site Contato Seguro - COB e abrange as seguintes funções:
 •	Faça uma denúncia
@@ -12,7 +12,7 @@ Este Plano de Teste compreende testes funcionais, de usabilidade e responsividad
 
 # Tabela Resumo dos Casos de Teste
 
-
+<img src="imagens/tabelaresumoCS.png"/>
 
 # Casos de Teste
 
@@ -52,3 +52,121 @@ ENTÃO o site deve ser traduzido para o idioma selecionado
 
 # Cadastro de BUGS
 
+1.DENÚNCIA
+Título do BUG: DENUNCIA | ERRO seleção de unidade
+Data: 31/08/2023
+Descrição do cenário do Teste: Deve poder preencher o formulário e avançar sem problemas
+BUG: Existem 3 seleções de unidade e elas não correspondem ao estado selecionado
+Evidências: 
+
+Grau de impacto no Sistema/Severidade: Alta
+Título do BUG: DENUNCIA | Evidências em vídeo não são aceitos
+Data: 31/08/2023
+Descrição do cenário do Teste: Deve aceitar vídeos para as evidências de denúncia
+BUG: não foi aceito o upload de vídeo em formato .mkv
+Evidências: 
+
+
+Grau de impacto no Sistema/Severidade: Baixa
+ 
+Título do BUG: DENUNCIA | Formulário de denúncia em inglês está incompleto
+Data: 31/08/2023
+Descrição do cenário do Teste: Deve ser possível preencher o formulário em todos os idiomas disponíveis
+BUG: Não é possível cadastrar denúncia em inglês
+Evidências: 
+
+Grau de impacto no Sistema/Severidade: Alta
+
+ 
+2.SUGESTÃO
+
+Título do BUG: SUGESTÃO | ERRO botão não funciona português
+Data: 31/08/2023
+Descrição do cenário do Teste: Deve poder fazer sugestão através do respectivo botão
+Evidências: 
+
+BUG: botão de sugestão apenas recarrega a página
+Grau de impacto no Sistema/Severidade: Crítico
+ 
+
+Título do BUG: SUGESTÃO | ERRO botão não funciona inglês
+Data: 31/08/2023
+Descrição do cenário do Teste: Deve poder fazer sugestão através do respectivo botão
+Evidências: 
+
+BUG: botão de sugestão sem texto e recarrega a página em português
+Grau de impacto no Sistema/Severidade: Crítico
+ 
+3.DÚVIDA
+
+Título do BUG: DÚVIDA | ERRO botão não disponível
+Data: 31/08/2023
+Descrição do cenário do Teste: Deve poder tirar dúvida através do respectivo botão
+Evidências: 
+
+BUG: botão de dúvida não é exibido
+Grau de impacto no Sistema/Severidade: Crítico
+
+ 
+4. ACESSIBILIDADE
+
+Título do BUG: ACESSIBILIDADE | ERRO acessibilidade desabilitada
+Data: 31/08/2023
+Descrição do cenário do Teste: Deve poder usar as funções de acessibilidade
+Evidências: 
+
+BUG: acessibilidade indisponível
+Grau de impacto no Sistema/Severidade: Crítico
+ 
+5. NAVEGAÇÃO
+
+Título do BUG: NAVEGAÇÃO | Botões do banner trocados
+Data: 31/08/2023
+Descrição do cenário do Teste: Deve poder navegar através dos botões do banner
+Evidências: 
+
+BUG: botões trocados
+Grau de impacto no Sistema/Severidade: Baixo
+
+ 
+Título do BUG: NAVEGAÇÃO | ERRO de responsividade no quadro explicativo
+Data: 31/08/2023
+Descrição do cenário do Teste: O site deve ter responsividade para celulares e janelas mais estreitas
+Evidências: 
+   
+
+BUG: o quadro explicativo é muito grande para ler no celular
+Grau de impacto no Sistema/Severidade: Médio
+
+ 
+6. IDIOMAS
+
+Título do BUG: IDIOMAS | ERROS no texto em português
+Data: 31/08/2023
+Descrição do cenário do Teste: Texto deve estar escrito corretamente
+Evidências: 
+
+BUG: erros no texto
+Grau de impacto no Sistema/Severidade: Baixo
+ 
+Título do BUG: IDIOMAS | ERROS no texto em inglês
+Data: 31/08/2023
+Descrição do cenário do Teste: Texto deve estar escrito corretamente
+Evidências: 
+
+
+BUG: texto confuso e afirmando que as denúncias sofrerão retaliações
+Grau de impacto no Sistema/Severidade: Médio
+
+ 
+Título do BUG: IDIOMAS | ERROS no site em inglês
+Data: 31/08/2023
+Descrição do cenário do Teste: O site deve ser traduzido corretamente
+Evidências: 
+
+
+
+
+
+BUG: alguns textos não são exibidos no site em inglês e o quadro explicativo não foi traduzido
+Grau de impacto no Sistema/Severidade: Médio

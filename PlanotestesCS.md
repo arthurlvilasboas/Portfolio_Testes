@@ -26,6 +26,7 @@ E preencher os dados necessários
 ENTÃO DEVE poder enviar sua denúncia com sucesso 
 
 
+
 **2.	SUGESTÃO**
 
 DADO que o usuário deseja fazer uma sugestão
@@ -35,6 +36,7 @@ QUANDO clicar em ‘Faça a sua Sugestão’
 E preencher os dados necessários
 
 ENTÃO DEVE poder enviar sua sugestão com sucesso
+
 
 
 **3.	DÚVIDA**
@@ -48,6 +50,7 @@ E preencher os dados necessários
 ENTÃO DEVE poder enviar sua dúvida com sucesso
 
 
+
 **4.	ACESSIBILIDADE**
 
 DADO que o usuário deseja usar uma função de acessibilidade
@@ -55,6 +58,7 @@ DADO que o usuário deseja usar uma função de acessibilidade
 QUANDO clicar em alguma das opções
 
 ENTÃO DEVE poder navegar com o auxílio necessário
+
 
 
 **5.	NAVEGAÇÃO**
@@ -65,6 +69,7 @@ QUANDO clicar em algum dos botões disponíveis
 
 ENTÃO DEVE ser direcionado de acordo com o botão correspondente
  
+
 
 **6.	IDIOMAS**
 
@@ -80,6 +85,7 @@ ENTÃO o site deve ser traduzido para o idioma selecionado
 
 **1. DENÚNCIA**
 
+
 **Título do BUG:** DENUNCIA | ERRO seleção de unidade
 
 Data: 31/08/2023
@@ -94,6 +100,7 @@ Evidências:
 
 Grau de impacto no Sistema/Severidade: Alta
 
+
 **Título do BUG:** DENUNCIA | Evidências em vídeo não são aceitos
 
 Data: 31/08/2023
@@ -107,6 +114,7 @@ Evidências:
 <img src="imagens/bug1.2.png"/>
 
 Grau de impacto no Sistema/Severidade: Baixa
+
 
 **Título do BUG:** DENUNCIA | Formulário de denúncia em inglês está incompleto
 
@@ -123,6 +131,7 @@ Evidências:
 Grau de impacto no Sistema/Severidade: Alta
 
 **2. SUGESTÃO**
+
 
 **Título do BUG:** SUGESTÃO | ERRO botão não funciona português
 
@@ -155,6 +164,7 @@ Grau de impacto no Sistema/Severidade: Crítico
 
 **3. DÚVIDA**
 
+
 **Título do BUG:** DÚVIDA | ERRO botão não disponível
 
 Data: 31/08/2023
@@ -170,6 +180,7 @@ BUG: botão de dúvida não é exibido
 Grau de impacto no Sistema/Severidade: Crítico
 
 **4. ACESSIBILIDADE**
+
 
 **Título do BUG:** ACESSIBILIDADE | ERRO acessibilidade desabilitada
 
@@ -187,6 +198,7 @@ Grau de impacto no Sistema/Severidade: Crítico
 
 **5. NAVEGAÇÃO**
 
+
 **Título do BUG:** NAVEGAÇÃO | Botões do banner trocados
 
 Data: 31/08/2023
@@ -200,6 +212,7 @@ Evidências:
 BUG: botões trocados
 
 Grau de impacto no Sistema/Severidade: Baixo
+
 
 **Título do BUG:** NAVEGAÇÃO | ERRO de responsividade no quadro explicativo
 
@@ -217,6 +230,7 @@ Grau de impacto no Sistema/Severidade: Médio
 
 **6. IDIOMAS**
 
+
 **Título do BUG:** IDIOMAS | ERROS no texto em português
 
 Data: 31/08/2023
@@ -231,6 +245,7 @@ BUG: erros no texto
 
 Grau de impacto no Sistema/Severidade: Baixo
 
+
 **Título do BUG:** IDIOMAS | ERROS no texto em inglês
 
 Data: 31/08/2023
@@ -244,6 +259,7 @@ Evidências:
 BUG: texto confuso e afirmando que as denúncias sofrerão retaliações
 
 Grau de impacto no Sistema/Severidade: Médio
+
 
 **Título do BUG:** IDIOMAS | ERROS no site em inglês
 
